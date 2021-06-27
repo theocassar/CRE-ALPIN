@@ -1,0 +1,25 @@
+header {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+}
+
+nav {
+  background: #fff;
+  display: flex;
+  height: 4.688rem;
+  justify-content: space-between;
+  width: 82%;
+  margin: 0 auto;
+}
+
+.block-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 425px) {
+  
+}

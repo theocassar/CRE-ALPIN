@@ -1,0 +1,10 @@
+.img-container {
+  background-image: url("/src/img/lubo-minar-3K6ZkYBj2Xo-unsplash.jpg");
+  height: 26.125rem;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
