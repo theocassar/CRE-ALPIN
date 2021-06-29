@@ -6,6 +6,8 @@
   z-index: 99999999999;
 }
 
+/* ⚠️ quand le menu est fermée il ne devrait pas être "par dessus" le  contenus. Donc soit tu le décale ver sle haut par exemple, soit tu le rends inactif au clic : pointer-events: none; */
+
 .nav {
   background: #fff;
   display: flex;
