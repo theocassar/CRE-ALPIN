@@ -1,5 +1,5 @@
 .img-container {
-  background: red;
+  background: url("../../src/img/rohit-tandon.webp");
   height: 26.563rem;
   background-position: center;
   background-size: cover;
@@ -64,13 +64,12 @@
   /*
   ⚠️
   format d'image mal choisis !
-  dimension mal choisis ! 
+  dimension mal choisis !
   chemin à partir du serveur ne marche pas en local car la racine du serveur (hors virtual host) est le dossier www/ ou htdocs/
   */
   background: url("../../src/img/paul.png") no-repeat;
   background-position: center;
   background-size: contain;
-  /* background: red; */
 }
 .avatar:nth-of-type(2) {
   /* background: url("/src/img/paul.png"); */
