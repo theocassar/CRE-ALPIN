@@ -22,6 +22,9 @@
 
   <header>
     <nav id="main-nav" class="is-hidden nav-links">
+      <div class="logo-container">
+        <img src="./src/img/logo-couleur-vectorisé.svg" alt="">
+      </div>
       <ul>
         <li><a href="#" class="nav-link"><img src="./src/img/account.svg" alt=""> Mon compte</a></li>
         <li><a href="#" class="nav-link"><img src="./src/img/foot.svg" alt=""> Historique des randonnées</a></li>
