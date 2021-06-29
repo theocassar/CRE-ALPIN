@@ -18,11 +18,21 @@
       <div class="block-icon"><a href="/index.php"><img src="./src/img/icn-burger.svg" alt="Icone de trais"></a></div>
     </nav>
   </header>
+  <main>
+    <div class="img-container">
+      <div class="img-container_inside">
+        <h1>Une randonnée pour préserver le Mont-Blanc</h1>
+      </div>
+    </div>
 
-  <div class="img-container">
-    <h1>Une randonnée pour préserver le Mont-Blanc</h1>
-  </div>
+    <div class="bord-arrondi"></div>
 
+    <section class="why-environnement">
+      <h2>Pourquoi préserver l'environnement ?</h2>
+      <p>L'environnement se dégrade peu à peu a cause de l'activité humaine. elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
+    </section>
+
+  </main>
 </body>
 
 </html>

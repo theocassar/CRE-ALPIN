@@ -1,10 +1,32 @@
 .img-container {
-  background-image: url("http://fakeimg.pl/300x300?font=lobster");
-  height: 26.125rem;
+  background: red;
+  height: 26.563rem;
   background-position: center;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+}
+
+.img-container_inside {
+  width: 80%;
+  margin: 0 auto;
+}
+.img-container_inside h1 {
+  color: white;
+}
+
+.bord-arrondi {
+  height: 3.125rem;
+  width: 100%;
+  background: white;
+  position: relative;
+  border-radius: 1.25rem;
+  top: -1.563rem;
+  z-index: 9999;
+}
+
+.why-environnement {
   text-align: center;
 }
