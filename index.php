@@ -56,6 +56,14 @@
       </div>
     </section>
 
+    <section class="our-goal">
+      <h2>Notre but</h2>
+
+      <p>Notre but est de préserver et sauver la faune et la flore, ainsi que sensibiliser la population des problèmes engendrés par l'activité humaine ainsi que la pollution. bore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet</p>
+
+
+    </section>
+
   </main>
 </body>
 

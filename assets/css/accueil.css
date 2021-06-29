@@ -69,6 +69,13 @@
   background: yellow;
 }
 .avatar:nth-of-type(3) {
-  /* background: url("/src/img/paul.png"); */
+  /* background: url("/img/paul.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
   background: pink;
+}
+
+.our-goal {
+  
 }
