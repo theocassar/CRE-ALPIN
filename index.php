@@ -25,11 +25,35 @@
       </div>
     </div>
 
-    <div class="bord-arrondi"></div>
+    <div class="edge-rounded"></div>
 
     <section class="why-environnement">
       <h2>Pourquoi préserver l'environnement ?</h2>
+
       <p>L'environnement se dégrade peu à peu a cause de l'activité humaine. elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
+    </section>
+
+    <section class="discover-hikes">
+      <h2>Venez découvrir nos randonnées</h2>
+
+      <p>Vous voulez vous ressourcer et faire du sport tout en essayant de sauver la faune et la flore ? nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem. </p>
+
+      <a href="#" class="btn btn-discover-hikes">Rechercher une randonnée</a>
+    </section>
+
+    <section class="Who-we-are">
+      <h2>Qui sommes-nous ?</h2>
+
+      <p>Nous sommes une équipe de scientifique cherchant a sauver la faune et la flore du mont Blanc. labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
+
+      <div class="avatars">
+        <div class="avatar"></div>
+        <div class="avatar"></div>
+        <div class="avatar"></div>
+        <div class="avatar"></div>
+        <div class="avatar"></div>
+        <div class="avatar"></div>
+      </div>
     </section>
 
   </main>

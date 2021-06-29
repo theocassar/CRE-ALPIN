@@ -29,6 +29,18 @@ section {
   margin: 0 auto 6.25rem auto;
 }
 
+.btn {
+  background-color: black;
+  color: white;
+  border-radius: 1.25rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 2.5rem;
+  cursor: pointer;
+}
+
 .debug {
   box-shadow: 0 0 0 1px red;
 }

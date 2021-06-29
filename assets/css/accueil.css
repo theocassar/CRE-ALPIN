@@ -17,16 +17,58 @@
   color: white;
 }
 
-.bord-arrondi {
+.edge-rounded {
   height: 3.125rem;
   width: 100%;
   background: white;
   position: relative;
   border-radius: 1.25rem;
-  top: -1.563rem;
+  top: -1.9rem;
   z-index: 9999;
 }
 
 .why-environnement {
   text-align: center;
+}
+
+.discover-hikes {
+  text-align: center;
+}
+
+.btn-discover-hikes {
+  padding: 1.063rem 4.1rem;
+}
+
+.Who-we-are {
+  text-align: center;
+}
+
+.avatars {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+  height: 13.188rem;
+  margin-top: 2.5rem;
+}
+
+.avatar {
+  width: 6.25rem;
+  height: 6.25rem;
+  background: green;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.avatar:nth-of-type(1) {
+  /* background: url("/src/img/paul.png"); */
+  background: red;
+}
+.avatar:nth-of-type(2) {
+  /* background: url("/src/img/paul.png"); */
+  background: yellow;
+}
+.avatar:nth-of-type(3) {
+  /* background: url("/src/img/paul.png"); */
+  background: pink;
 }
