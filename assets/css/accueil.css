@@ -1,17 +1,38 @@
 .img-container {
-  background: url("../../src/img/rohit-tandon.webp");
   height: 26.563rem;
-  background-position: center;
-  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
+  display: grid;
+  place-items: center;
+  position: relative;
   text-align: center;
+}
+.img-container::before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url("../../src/img/rohit-tandon.webp");
+  background-size: cover;
+  background-position: center;
+  filter: brightness(50%);
 }
 
 .img-container_inside {
   width: 80%;
   margin: 0 auto;
+  position: relative;
+  font: bold 42px sans-serif;
+  text-align: center;
+  align-items: middle;
+  display: flex;
+  flex-wrap: wrap;
+  vertical-align: middle;
+  align-content: center;
+  justify-content: center;
 }
 .img-container_inside h1 {
   color: white;
