@@ -80,7 +80,21 @@
 
       <p>Notre but est de préserver et sauver la faune et la flore, ainsi que sensibiliser la population des problèmes engendrés par l'activité humaine ainsi que la pollution. bore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet</p>
 
-
+      <div class="container">
+        <div class="carouselContainer">
+          <div class="carouselImgs slide1">
+          </div>
+          <div class="carouselImgs slide2">
+          </div>
+          <div class="carouselImgs slide3">
+          </div>
+          <span class="prev" id="prev">
+            <b>
+              < </b></span>
+          <span class="next" id="next">
+            <b> > </b> </span>
+        </div>
+      </div>
     </section>
 
     <section class="what-is-terminal">
