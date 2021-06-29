@@ -1,11 +1,12 @@
-header {
+.header {
   position: fixed;
   bottom: 0;
   width: 100%;
   background: #fff;
+  z-index: 99999999999;
 }
 
-nav {
+.nav {
   background: #fff;
   display: flex;
   height: 4.688rem;
@@ -14,12 +15,55 @@ nav {
   margin: 0 auto;
 }
 
+header {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+}
+
+nav {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background: white;
+}
+
+.nav-links {
+  list-style-type: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+.nav-link img {
+  margin-right: 1rem;
+  margin-left: 2.313rem;
+}
+
 .block-icon {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.is-visible {
+  visibility: visible;
+  display: block;
+}
+
+.is-hidden {
+  visibility: hidden;
+  display: none;
+}
+
+#btn-burger {
+  background: white;
+  border: none;
+}
+
 @media screen and (min-width: 425px) {
-  
 }

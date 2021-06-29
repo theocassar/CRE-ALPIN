@@ -10,14 +10,30 @@
 </head>
 
 <body>
-  <header>
-    <nav>
+  <div class="header">
+    <div class="nav">
       <div class="block-icon"><a href="/index.php"><img src="./src/img/home-fill.svg" alt="Icone de maison"></a></div>
       <div class="block-icon"><a href="/index.php"><img src="./src/img/square.svg" alt="Icone de rectangle"></a></div>
       <div class="block-icon"><a href="/index.php"><img src="./src/img/search.svg" alt="Icone de loupe"></a></div>
-      <div class="block-icon"><a href="/index.php"><img src="./src/img/icn-burger.svg" alt="Icone de trais"></a></div>
+
+      <div class="block-icon"><button id="btn-burger" class="block-icon"><img src="./src/img/icn-burger.svg" alt="Icone de trais"></button></div>
+    </div>
+  </div>
+
+  <header>
+    <nav id="main-nav" class="is-hidden nav-links">
+      <ul>
+        <li><a href="#" class="nav-link"><img src="./src/img/account.svg" alt=""> Mon compte</a></li>
+        <li><a href="#" class="nav-link"><img src="./src/img/foot.svg" alt=""> Historique des randonnées</a></li>
+        <li><a href="#" class="nav-link"><img src="./src/img/star.svg" alt=""> Favoris</a></li>
+        <li><a href="#" class="nav-link"><img src="./src/img/mountain.svg" alt=""> Survoler</a></li>
+        <li><a href="#" class="nav-link"><img src="./src/img/map.svg" alt=""> Explorer</a></li>
+        <li><a href="#" class="nav-link"><img src="./src/img/doc.svg" alt=""> Mentions légales</a></li>
+        <li><a href="#" class="nav-link"><img src="./src/img/help.svg" alt=""> Aide</a></li>
+      </ul>
     </nav>
   </header>
+
   <main>
     <div class="img-container">
       <div class="img-container_inside">
@@ -65,6 +81,8 @@
     </section>
 
   </main>
+  <script src="./assets/js/main.js" defer></script>
+
 </body>
 
 </html>
