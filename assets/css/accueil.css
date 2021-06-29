@@ -88,22 +88,43 @@
   dimension mal choisis !
   chemin à partir du serveur ne marche pas en local car la racine du serveur (hors virtual host) est le dossier www/ ou htdocs/
   */
-  background: url("../../src/img/paul.png") no-repeat;
+  background: url("../../src/img/paul.webp") no-repeat;
   background-position: center;
   background-size: contain;
 }
 .avatar:nth-of-type(2) {
-  /* background: url("/src/img/paul.png"); */
-  background: yellow;
-}
-.avatar:nth-of-type(3) {
-  /* background: url("/img/paul.png");
+  background: url("../../src/img/remi.webp");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; */
-  background: pink;
+  background-size: cover;
+}
+.avatar:nth-of-type(3) {
+  background: url("../../src/img/theo.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .our-goal {
   text-align: center;
+}
+
+.what-is-terminal {
+  text-align: center;
+}
+
+.your-account {
+  text-align: center;
+}
+
+.your-account a {
+  padding: 1.063rem 4.1rem;
+}
+
+.need-help {
+  text-align: center;
+}
+
+.need-help a {
+  padding: 1.063rem 4.1rem;
 }

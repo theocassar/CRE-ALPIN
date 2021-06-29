@@ -12,27 +12,27 @@
 <body>
   <div class="header">
     <div class="nav">
-      <div class="block-icon"><a href="/index.php"><img src="./src/img/home-fill.svg" alt="Icone de maison"></a></div>
-      <div class="block-icon"><a href="/index.php"><img src="./src/img/square.svg" alt="Icone de rectangle"></a></div>
-      <div class="block-icon"><a href="/index.php"><img src="./src/img/search.svg" alt="Icone de loupe"></a></div>
+      <div class="block-icon"><a href="/index.php"><img src="./src/img/home-fill.svg" alt=""></a></div>
+      <div class="block-icon"><a href="/index.php"><img src="./src/img/square.svg" alt=""></a></div>
+      <div class="block-icon"><a href="/index.php"><img src="./src/img/search.svg" alt=""></a></div>
 
       <div class="block-icon"><button id="btn-burger" class="block-icon"><img src="./src/img/icn-burger.svg" alt="Icone de trais"></button></div>
     </div>
   </div>
 
   <header>
-    <nav id="main-nav" class="is-hidden nav-links">
+    <nav id="main-nav" class="is-hidden">
       <div class="logo-container">
         <img src="./src/img/logo-couleur-vectorisé.svg" alt="">
       </div>
-      <ul>
-        <li><a href="#" class="nav-link"><img src="./src/img/account.svg" alt=""> Mon compte</a></li>
-        <li><a href="#" class="nav-link"><img src="./src/img/foot.svg" alt=""> Historique des randonnées</a></li>
-        <li><a href="#" class="nav-link"><img src="./src/img/star.svg" alt=""> Favoris</a></li>
-        <li><a href="#" class="nav-link"><img src="./src/img/mountain.svg" alt=""> Survoler</a></li>
-        <li><a href="#" class="nav-link"><img src="./src/img/map.svg" alt=""> Explorer</a></li>
-        <li><a href="#" class="nav-link"><img src="./src/img/doc.svg" alt=""> Mentions légales</a></li>
-        <li><a href="#" class="nav-link"><img src="./src/img/help.svg" alt=""> Aide</a></li>
+      <ul class="nav-links">
+        <li class="nav-link"><a href="#"><img src="./src/img/account.svg" alt=""> Mon compte</a></li>
+        <li class="nav-link"><a href="#"><img src="./src/img/foot.svg" alt=""> Historique des randonnées</a></li>
+        <li class="nav-link"><a href="#"><img src="./src/img/star.svg" alt=""> Favoris</a></li>
+        <li class="nav-link"><a href="#"><img src="./src/img/mountain.svg" alt=""> Survoler</a></li>
+        <li class="nav-link"><a href="#"><img src="./src/img/map.svg" alt=""> Explorer</a></li>
+        <li class="nav-link"><a href="#"><img src="./src/img/doc.svg" alt=""> Mentions légales</a></li>
+        <li class="nav-link"><a href="#"><img src="./src/img/help.svg" alt=""> Aide</a></li>
       </ul>
     </nav>
   </header>
@@ -81,6 +81,31 @@
       <p>Notre but est de préserver et sauver la faune et la flore, ainsi que sensibiliser la population des problèmes engendrés par l'activité humaine ainsi que la pollution. bore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet</p>
 
 
+    </section>
+
+    <section class="what-is-terminal">
+      <h2>Qu'est ce que la borne de r'E-connexion ?</h2>
+
+      <p>Les bornes de r'E-connexion servent à se reconnecter avec son environnement. Elles seront disposées le long des sentiers.
+        Équipées de QRCodes, elles devront vous rediriger sur la page de l'application
+        correspondante et vous proposeront du contenu interactif sur l'environnement proche, la
+        faune et la flore.</p>
+    </section>
+
+    <section class="your-account">
+      <h2>Votre compte</h2>
+
+      <p>Créez vous un compte ou bien connectez vous afin de pouvoir nous aider a récolter des informations sur le Mont Blanc tout en faisant votre randonnée préférée. labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+
+      <a href="#" class="btn btn-your-account">Accéder à mon compte</a>
+    </section>
+
+    <section class="need-help">
+      <h2>Votre compte</h2>
+
+      <p>Créez vous un compte ou bien connectez vous afin de pouvoir nous aider a récolter des informations sur le Mont Blanc tout en faisant votre randonnée préférée. labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+
+      <a href="#" class="btn">Accéder à la page d'aide</a>
     </section>
 
   </main>
