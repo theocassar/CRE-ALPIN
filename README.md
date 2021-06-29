@@ -1,5 +1,7 @@
 # CRE'ALPIN - Sensibiliser pour protéger l'espace alpin
 
+![Drag Racing](./src/img/logo-couleur-vectorisé.svg)
+
 ## Client
 
 CREA, le Centre de recherche sur les écosystèmes d'altitude, spécialisé dans l'étude des changements climatiques en milieu alpin.
