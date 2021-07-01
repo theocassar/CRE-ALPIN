@@ -3,9 +3,14 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow" />
   <meta name="description" content="Préserver la faune et la flaure du Mont-Blanc">
+  <meta name="author" content="Théo Cassar" />
+  <meta name="copyright" content="Théo Cassar" />
+  <meta http-equiv="cache-control" content="no-cache" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CRE'ALPIN | Une randonnée pour préserver le Mont-Blanc</title>
+  <link rel="icon" type="image/png" href="./src/img/logo-couleur-vectorisé.svg" />
   <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 
