@@ -1,3 +1,5 @@
+/* Photo de page d'accueil */
+
 .img-container {
   height: 26.563rem;
   display: flex;
@@ -23,6 +25,8 @@
   filter: brightness(50%);
 }
 
+/* Texte de la page d'acceuil */
+
 .img-container_inside {
   width: 80%;
   margin: 0 auto;
@@ -42,6 +46,8 @@
   color: white;
 }
 
+/* Bord en dessous de la photo d'acceuil */
+
 .edge-rounded {
   height: 3.125rem;
   width: 100%;
@@ -51,6 +57,8 @@
   top: -1.9rem;
   z-index: 9999;
 }
+
+/* Section "Pourquoi préserver l'environnement" */
 
 .why-environnement {
   text-align: center;
