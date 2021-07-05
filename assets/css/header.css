@@ -20,7 +20,7 @@
 header {
   position: absolute;
   height: 100vh;
-  pointer-events: none;
+  /* pointer-events: none; */
   width: 100vw;
 }
 
@@ -32,10 +32,11 @@ nav {
   background: white;
 }
 
-.logo-container {
+nav > .logo-container {
   width: 15rem;
   margin: 4.25rem auto;
   text-align: center;
+  z-index: -99999;
 }
 
 .nav-links {

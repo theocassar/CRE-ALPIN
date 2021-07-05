@@ -17,30 +17,15 @@
 <body>
   <div class="header">
     <div class="nav">
-      <div class="block-icon"><a href="/index.php"><img src="./src/img/home-fill.svg" alt=""></a></div>
-      <div class="block-icon"><a href="/index.php"><img src="./src/img/square.svg" alt=""></a></div>
-      <div class="block-icon"><a href="/index.php"><img src="./src/img/search.svg" alt=""></a></div>
+      <div class="block-icon"><a href="./index.php"><img src="./src/img/home-fill.svg" alt=""></a></div>
+      <div class="block-icon"><a href="#"><img src="./src/img/square.svg" alt=""></a></div>
+      <div class="block-icon"><a href="#s"><img src="./src/img/search.svg" alt=""></a></div>
 
       <div class="block-icon"><button id="btn-burger" class="block-icon"><img src="./src/img/icn-burger.svg" alt="Icone de trais"></button></div>
     </div>
   </div>
 
-  <header>
-    <nav id="main-nav" class="is-hidden">
-      <div class="logo-container">
-        <img src="./src/img/logo-couleur-vectorisé.svg" alt="">
-      </div>
-      <ul class="nav-links">
-        <li class="nav-link"><a href="#"><img src="./src/img/account.svg" alt=""> Mon compte</a></li>
-        <li class="nav-link"><a href="#"><img src="./src/img/foot.svg" alt=""> Historique des randonnées</a></li>
-        <li class="nav-link"><a href="#"><img src="./src/img/star.svg" alt=""> Favoris</a></li>
-        <li class="nav-link"><a href="#"><img src="./src/img/mountain.svg" alt=""> Survoler</a></li>
-        <li class="nav-link"><a href="#"><img src="./src/img/map.svg" alt=""> Explorer</a></li>
-        <li class="nav-link"><a href="#"><img src="./src/img/doc.svg" alt=""> Mentions légales</a></li>
-        <li class="nav-link"><a href="#"><img src="./src/img/help.svg" alt=""> Aide</a></li>
-      </ul>
-    </nav>
-  </header>
+  <?php include '../CRE-ALPIN/assets/php/header.php' ?>
 
   <main>
     <div class="img-container">
