@@ -10,7 +10,7 @@
   <meta http-equiv="cache-control" content="no-cache" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mon compte | CRE'ALPIN</title>
-  <link rel="icon" type="image/png" href="./src/img/logo-couleur-vectorisé.svg" />
+  <link rel="icon" type="image/png" href="../../src/img/logo-couleur-vectorisé.svg" />
   <link rel="stylesheet" href="../../assets/css/main.css">
 </head>
 
