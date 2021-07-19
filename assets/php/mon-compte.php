@@ -17,10 +17,9 @@
 <body>
   <div class="header">
     <div class="nav">
-      <div class="block-icon"><a href="/index.php"><img src="../../src/img/home.svg" alt=""></a></div>
+      <div class="block-icon"><a href="../../index.php"><img src="../../src/img/home.svg" alt=""></a></div>
       <div class="block-icon"><a href="/index.php"><img src="../../src/img/square.svg" alt=""></a></div>
       <div class="block-icon"><a href="/index.php"><img src="../../src/img/search.svg" alt=""></a></div>
-
       <div class="block-icon"><button id="btn-burger" class="block-icon"><img src="../../src/img/icn-burger.svg" alt=""></button></div>
     </div>
   </div>
@@ -28,9 +27,10 @@
   <?php include '../../CRE-ALPIN/assets/php/header.php' ?>
 
   <main>
-
+    
   </main>
-  <script src="./assets/js/main.js" defer></script>
+
+  <script src="../../assets/js/main.js" defer></script>
 
 </body>
 
