@@ -1,6 +1,6 @@
-@import url("../../css/header.css");
-@import url("../../css/accueil.css");
-@import url("../../assets/css/mon-compte.css");
+@import url("./header.css");
+@import url("./accueil.css");
+@import url("./mon-compte.css");
 
 * {
   padding: 0;
