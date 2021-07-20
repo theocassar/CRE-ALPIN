@@ -1,6 +1,6 @@
 # CRE'ALPIN - Sensibiliser pour protéger l'espace alpin
 
-![Drag Racing](./src/img/logo-couleur-vectorisé.svg)
+![Drag Racing](./src/img/logo-couleur-vectorise.svg)
 
 ## Client
 
