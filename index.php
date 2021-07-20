@@ -19,7 +19,7 @@
     <div class="nav">
       <div class="block-icon"><a href="./index.php"><img src="./src/img/home-fill.svg" alt=""></a></div>
       <div class="block-icon"><a href="#"><img src="./src/img/square.svg" alt=""></a></div>
-      <div class="block-icon"><a href="#s"><img src="./src/img/search.svg" alt=""></a></div>
+      <div class="block-icon"><a href="#"><img src="./src/img/search.svg" alt=""></a></div>
 
       <div class="block-icon"><button id="btn-burger" class="block-icon"><img src="./src/img/icn-burger.svg" alt="Icone de trais"></button></div>
     </div>

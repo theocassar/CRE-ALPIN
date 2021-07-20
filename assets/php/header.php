@@ -1,7 +1,7 @@
 <header>
   <nav id="main-nav" class="is-hidden">
     <div class="logo-container">
-      <a href="/index.php"><img src="./src/img/logo-couleur-vectorisé.svg" alt="Logo CRE'LPIN"></a>
+      <a href="/index.php"><img src="./src/img/logo-couleur-vectorise.svg" alt="Logo CRE'LPIN"></a>
     </div>
     <ul class="nav-links">
       <li class="nav-link"><a href="./assets/php/mon-compte.php"><img src="./src/img/account.svg" alt=""> Mon compte</a></li>

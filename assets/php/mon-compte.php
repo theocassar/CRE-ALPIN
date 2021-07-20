@@ -28,7 +28,7 @@
 
   <main>
     <div class="logo-container">
-      <a href="#"><img src="../../src/img/logo-couleur-vectorisé.svg" alt="Logo CRE'LPIN"></a>
+      <a href="#"><img src="../../src/img/logo-couleur-vectorise.svg" alt="Logo CRE'LPIN"></a>
     </div>
 
     <form action="verification.php" method="POST">
