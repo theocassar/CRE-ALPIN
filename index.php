@@ -12,6 +12,7 @@
   <title>CRE'ALPIN | Une randonnée pour préserver le Mont-Blanc</title>
   <link rel="icon" type="image/png" href="./src/img/logo-couleur-vectorisé.svg" />
   <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -59,9 +60,6 @@
         <div class="avatar"></div>
         <div class="avatar"></div>
         <div class="avatar"></div>
-        <div class="avatar"></div>
-        <div class="avatar"></div>
-        <div class="avatar"></div>
       </div>
     </section>
 
@@ -70,20 +68,13 @@
 
       <p>Notre but est de préserver et sauver la faune et la flore, ainsi que sensibiliser la population des problèmes engendrés par l'activité humaine ainsi que la pollution. bore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet</p>
 
-      <div class="container">
-        <div class="carouselContainer">
-          <div class="carouselImgs slide1">
-          </div>
-          <div class="carouselImgs slide2">
-          </div>
-          <div class="carouselImgs slide3">
-          </div>
-          <span class="prev" id="prev">
-            <b>
-              < </b></span>
-          <span class="next" id="next">
-            <b> > </b> </span>
+      <div class="swiper-container mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./src/img/mountain-trail.webp" alt="Image de montagne"></div>
+          <div class="swiper-slide"><img src="./src/img/mountain2.webp" alt="Image de montagne"></div>
+          <div class="swiper-slide"><img src="./src/img/mountain3.webp" alt="Image de montagne"></div>
         </div>
+        <div class="swiper-pagination"></div>
       </div>
     </section>
 
@@ -113,6 +104,7 @@
     </section>
 
   </main>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="./assets/js/main.js" defer></script>
 
 </body>

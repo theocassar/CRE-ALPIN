@@ -121,82 +121,41 @@
   text-align: center;
 }
 
-.container {
-  width: 100%;
-  margin-top: 4.688rem;
-  /* background-color: red; */
-  display: flex;
-  align-items: center;
-  justify-items: center;
-}
-
-.carouselContainer {
-  width: 100%;
-  height: 17.875rem;
-  margin: 0 auto;
-  position: relative;
-  background-color: #fff;
-  border-radius: 1.5rem;
-  overflow: hidden;
-}
-
-.carouselImgs {
+.swiper-container {
   width: 100%;
   height: 100%;
-  animation: fade 1.5s;
-  display: none;
-  padding: 20px;
+}
+
+.mySwiper {
+  margin-top: 1.25rem;
+  border-radius: 1.25rem;
+}
+
+.swiper-slide {
   text-align: center;
-  align-items: center;
-  justify-items: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
 }
 
-.prev,
-.next {
-  position: absolute;
-  top: 49%;
-  cursor: pointer;
-}
-
-.prev {
-  left: 10px;
-  color: white;
-}
-
-.next {
-  right: 10px;
-  color: white;
-}
-
-@keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-.slide1 {
-  background: url("../../src/img/mountain-trail.webp");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.slide2 {
-  background: url("../../src/img/mountain2.webp");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.slide3 {
-  background: url("../../src/img/mountain3.webp");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .what-is-terminal {
