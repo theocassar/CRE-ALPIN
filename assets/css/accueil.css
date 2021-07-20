@@ -126,6 +126,12 @@
   height: 100%;
 }
 
+.swiper-container-horizontal
+  > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic
+  .swiper-pagination-bullet {
+  background: black;
+}
+
 .mySwiper {
   margin-top: 1.25rem;
   border-radius: 1.25rem;
