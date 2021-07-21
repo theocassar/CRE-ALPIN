@@ -1,3 +1,9 @@
+<?php
+
+// var_dump($_SERVER);w
+
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -10,7 +16,7 @@
   <meta http-equiv="cache-control" content="no-cache" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mon compte | CRE'ALPIN</title>
-  <link rel="icon" type="image/png" href="../../src/img/logo-couleur-vectorisé.svg" />
+  <link rel="icon" type="image/png" href="../../src/img/logo-couleur-vectorise.svg" />
   <link rel="stylesheet" href="../../assets/css/main.css">
 </head>
 
@@ -31,24 +37,17 @@
       <a href="#"><img src="../../src/img/logo-couleur-vectorise.svg" alt="Logo CRE'LPIN"></a>
     </div>
 
-    <form action="verification.php" method="POST">
-      <h1>Connexion</h1>
+    <h1>Connexion</h1>
 
-      <label><b>Nom d'utilisateur</b></label>
-      <input type="text" placeholder="Entrer le nom d'utilisateur" name="username" required>
+    <form method="POST" action="./cible.php">
 
-      <label><b>Mot de passe</b></label>
-      <input type="password" placeholder="Entrer le mot de passe" name="password" required>
+      <label for="nom_id">Votre nom</label>
+      <input type="text" value="" name="NOM" id="nom_id">
 
-      <input type="submit" id='submit' value='LOGIN'>
-      <?php
-      if (isset($_GET['erreur'])) {
-        $err = $_GET['erreur'];
-        if ($err == 1 || $err == 2)
-          echo "<p style='color:red'>Utilisateur ou mot de passe incorrect</p>";
-      }
-      ?>
+      <button type="submit" class="btn btn-primary">Envoyer</button>
+
     </form>
+
   </main>
 
   <script src="../../assets/js/main.js" defer></script>
