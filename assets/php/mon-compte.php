@@ -1,6 +1,6 @@
 <?php
 
-// var_dump($_SERVER);w
+
 
 ?>
 
@@ -14,7 +14,7 @@
   <meta name="author" content="Théo Cassar" />
   <meta name="copyright" content="Théo Cassar" />
   <meta http-equiv="cache-control" content="no-cache" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <title>Mon compte | CRE'ALPIN</title>
   <link rel="icon" type="image/png" href="../../src/img/logo-couleur-vectorise.svg" />
   <link rel="stylesheet" href="../../assets/css/main.css">
@@ -50,6 +50,7 @@
 
   </main>
 
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="../../assets/js/main.js" defer></script>
 
 </body>

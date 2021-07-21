@@ -31,7 +31,7 @@ section {
 }
 
 .btn {
-  background-color: black;
+  background-color: #00afd4;
   color: white;
   border-radius: 1.25rem;
   font-weight: bold;
@@ -40,6 +40,10 @@ section {
   display: inline-block;
   margin-top: 2.5rem;
   cursor: pointer;
+  transition: 0.5s;
+}
+.btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .debug {
