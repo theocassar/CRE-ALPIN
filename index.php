@@ -7,13 +7,11 @@
   <meta name="description" content="Préserver la faune et la flaure du Mont-Blanc">
   <meta name="author" content="Théo Cassar" />
   <meta name="copyright" content="Théo Cassar" />
-  <meta http-equiv="cache-control" content="no-cache" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CRE'ALPIN | Une randonnée pour préserver le Mont-Blanc</title>
   <link rel="icon" type="image/png" href="./src/img/logo-couleur-vectorise.svg" />
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./assets/css/main.css">
-  <link rel="manifest" href="manifest.json">
 </head>
 
 <body>
@@ -27,7 +25,7 @@
     </div>
   </div>
 
-  <?php include '../CRE-ALPIN/assets/php/header.php' ?>
+  <?php include './assets/php/header.php' ?>
 
   <main>
     <div class="img-container">
@@ -55,7 +53,7 @@
     <section class="Who-we-are">
       <h2>Qui sommes-nous ?</h2>
 
-      <p>Nous sommes une équipe de scientifique cherchant a sauver la faune et la flore du mont Blanc. labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
+      <p>Nous sommes une équipe de scientifiQue cherchant a sauver la faune et la flore du mont Blanc. labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
 
       <div class="avatars">
         <div class="avatar"></div>
